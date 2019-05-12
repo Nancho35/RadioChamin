@@ -1,0 +1,692 @@
+Started GET "/" for 127.0.0.1 at 2019-05-12 12:46:09 -0500
+  
+PG::ConnectionBad (FATAL:  la autentificación password falló para el usuario «noticias»
+):
+  
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `initialize'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `new'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:47:01 -0500
+  
+PG::ConnectionBad (FATAL:  la autentificación password falló para el usuario «noticias»
+):
+  
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `initialize'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `new'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:47:19 -0500
+  
+PG::ConnectionBad (FATAL:  la autentificación password falló para el usuario «noticias»
+):
+  
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `initialize'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `new'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:48:40 -0500
+  
+PG::ConnectionBad (FATAL:  la autentificación password falló para el usuario «noticias»
+):
+  
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `initialize'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `new'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:50:14 -0500
+  
+PG::ConnectionBad (FATAL:  la autentificación password falló para el usuario «noticias»
+):
+  
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `initialize'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `new'
+pg-1.1.3-x64 (mingw32) lib/pg.rb:56:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:51:04 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.4ms)
+  Rendered creatives/_header.html.erb (3259.4ms)
+  Rendered creatives/_bg_primary.html.erb (0.6ms)
+  Rendered creatives/_services.html.erb (1.9ms)
+  Rendered creatives/_portfolio.html.erb (8.2ms)
+  Rendered creatives/_call_to_action.html.erb (0.5ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (3621.9ms)
+Completed 200 OK in 4291ms (Views: 4237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 12:58:06 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.4ms)
+  Rendered creatives/_header.html.erb (6.8ms)
+  Rendered creatives/_bg_primary.html.erb (0.4ms)
+  Rendered creatives/_services.html.erb (0.4ms)
+  Rendered creatives/_portfolio.html.erb (12.3ms)
+  Rendered creatives/_call_to_action.html.erb (0.9ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (351.3ms)
+Completed 200 OK in 592ms (Views: 544.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 13:59:17 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.9ms)
+  Rendered creatives/_header.html.erb (11.1ms)
+  Rendered creatives/_bg_primary.html.erb (0.5ms)
+  Rendered creatives/_services.html.erb (0.6ms)
+  Rendered creatives/_portfolio.html.erb (10.5ms)
+  Rendered creatives/_call_to_action.html.erb (0.8ms)
+  Rendered creatives/_contact.html.erb (0.5ms)
+  Rendered creatives/index.html.erb within layouts/creative (346.6ms)
+Completed 200 OK in 1104ms (Views: 1049.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:00:25 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.4ms)
+  Rendered creatives/_header.html.erb (11.7ms)
+  Rendered creatives/_bg_primary.html.erb (0.5ms)
+  Rendered creatives/_services.html.erb (1.1ms)
+  Rendered creatives/_portfolio.html.erb (7.6ms)
+  Rendered creatives/_call_to_action.html.erb (0.6ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (347.6ms)
+Completed 200 OK in 1896ms (Views: 1850.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:02:19 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.6ms)
+  Rendered creatives/_header.html.erb (6.7ms)
+  Rendered creatives/_bg_primary.html.erb (1.3ms)
+  Rendered creatives/_services.html.erb (0.6ms)
+  Rendered creatives/_portfolio.html.erb (12.8ms)
+  Rendered creatives/_call_to_action.html.erb (1.3ms)
+  Rendered creatives/_contact.html.erb (2.9ms)
+  Rendered creatives/index.html.erb within layouts/creative (350.7ms)
+Completed 200 OK in 1288ms (Views: 1245.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:03:47 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.5ms)
+  Rendered creatives/_header.html.erb (3.7ms)
+  Rendered creatives/_bg_primary.html.erb (0.4ms)
+  Rendered creatives/_services.html.erb (0.5ms)
+  Rendered creatives/_portfolio.html.erb (7.1ms)
+  Rendered creatives/_call_to_action.html.erb (1.2ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (340.1ms)
+Completed 200 OK in 1244ms (Views: 1202.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:04:11 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.5ms)
+  Rendered creatives/_header.html.erb (3.9ms)
+  Rendered creatives/_bg_primary.html.erb (0.4ms)
+  Rendered creatives/_services.html.erb (0.5ms)
+  Rendered creatives/_portfolio.html.erb (9.2ms)
+  Rendered creatives/_call_to_action.html.erb (0.5ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (328.8ms)
+Completed 200 OK in 1219ms (Views: 1177.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:04:53 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.8ms)
+  Rendered creatives/_header.html.erb (5.6ms)
+  Rendered creatives/_bg_primary.html.erb (0.8ms)
+  Rendered creatives/_services.html.erb (0.9ms)
+  Rendered creatives/_portfolio.html.erb (11.1ms)
+  Rendered creatives/_call_to_action.html.erb (0.5ms)
+  Rendered creatives/_contact.html.erb (0.6ms)
+  Rendered creatives/index.html.erb within layouts/creative (339.5ms)
+Completed 200 OK in 897ms (Views: 855.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:05:34 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.4ms)
+  Rendered creatives/_header.html.erb (4.1ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (0.4ms)
+  Rendered creatives/_portfolio.html.erb (7.4ms)
+  Rendered creatives/_call_to_action.html.erb (0.4ms)
+  Rendered creatives/_contact.html.erb (0.5ms)
+  Rendered creatives/index.html.erb within layouts/creative (356.1ms)
+Completed 200 OK in 3084ms (Views: 3041.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:17:59 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.4ms)
+  Rendered creatives/_header.html.erb (29.5ms)
+  Rendered creatives/_bg_primary.html.erb (0.4ms)
+  Rendered creatives/_services.html.erb (1.0ms)
+  Rendered creatives/_portfolio.html.erb (12.4ms)
+  Rendered creatives/_call_to_action.html.erb (0.6ms)
+  Rendered creatives/_contact.html.erb (1.1ms)
+  Rendered creatives/index.html.erb within layouts/creative (392.7ms)
+Completed 200 OK in 631ms (Views: 587.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 14:58:49 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.6ms)
+  Rendered creatives/_header.html.erb (26.0ms)
+  Rendered creatives/_bg_primary.html.erb (0.7ms)
+  Rendered creatives/_services.html.erb (1.5ms)
+  Rendered creatives/_portfolio.html.erb (8.6ms)
+  Rendered creatives/_call_to_action.html.erb (1.3ms)
+  Rendered creatives/_contact.html.erb (0.2ms)
+  Rendered creatives/index.html.erb within layouts/creative (258.5ms)
+Completed 200 OK in 414ms (Views: 379.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:02:04 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (3.1ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (0.8ms)
+  Rendered creatives/_portfolio.html.erb (8.2ms)
+  Rendered creatives/_call_to_action.html.erb (0.5ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (253.4ms)
+Completed 200 OK in 417ms (Views: 385.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:05:37 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.8ms)
+  Rendered creatives/_header.html.erb (3.6ms)
+  Rendered creatives/_bg_primary.html.erb (0.4ms)
+  Rendered creatives/_services.html.erb (1.0ms)
+  Rendered creatives/_portfolio.html.erb (9.7ms)
+  Rendered creatives/_call_to_action.html.erb (0.4ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (224.9ms)
+Completed 200 OK in 358ms (Views: 334.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:07:16 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (2.4ms)
+  Rendered creatives/_header.html.erb (2.5ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (0.3ms)
+  Rendered creatives/_portfolio.html.erb (34.3ms)
+  Rendered creatives/_call_to_action.html.erb (0.4ms)
+  Rendered creatives/_contact.html.erb (1.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (229.0ms)
+Completed 200 OK in 359ms (Views: 334.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:07:47 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (2.2ms)
+  Rendered creatives/_header.html.erb (2.4ms)
+  Rendered creatives/_bg_primary.html.erb (0.2ms)
+  Rendered creatives/_services.html.erb (0.4ms)
+  Rendered creatives/_portfolio.html.erb (32.5ms)
+  Rendered creatives/_call_to_action.html.erb (0.4ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (258.1ms)
+Completed 200 OK in 410ms (Views: 377.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:08:21 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (2.4ms)
+  Rendered creatives/_bg_primary.html.erb (0.2ms)
+  Rendered creatives/_services.html.erb (0.3ms)
+  Rendered creatives/_portfolio.html.erb (44.3ms)
+  Rendered creatives/_call_to_action.html.erb (2.3ms)
+  Rendered creatives/_contact.html.erb (0.6ms)
+  Rendered creatives/index.html.erb within layouts/creative (279.0ms)
+Completed 200 OK in 417ms (Views: 391.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:08:55 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (2.7ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (0.8ms)
+  Rendered creatives/_portfolio.html.erb (51.6ms)
+  Rendered creatives/_call_to_action.html.erb (0.3ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (246.8ms)
+Completed 200 OK in 385ms (Views: 357.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:10:44 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.2ms)
+  Rendered creatives/_header.html.erb (5.6ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (1.3ms)
+  Rendered creatives/_portfolio.html.erb (11.7ms)
+  Rendered creatives/_call_to_action.html.erb (0.3ms)
+  Rendered creatives/_contact.html.erb (0.6ms)
+  Rendered creatives/index.html.erb within layouts/creative (228.3ms)
+Completed 200 OK in 1942ms (Views: 1916.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:11:49 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (7.4ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (2.0ms)
+  Rendered creatives/_portfolio.html.erb (8.2ms)
+  Rendered creatives/_call_to_action.html.erb (0.5ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (233.8ms)
+Completed 200 OK in 2160ms (Views: 2136.1ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:13:26 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (2.5ms)
+  Rendered creatives/_bg_primary.html.erb (0.2ms)
+  Rendered creatives/_services.html.erb (0.8ms)
+  Rendered creatives/_portfolio.html.erb (10.4ms)
+  Rendered creatives/_call_to_action.html.erb (0.3ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (230.9ms)
+Completed 200 OK in 2105ms (Views: 2080.7ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:14:26 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (2.7ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (1.3ms)
+  Rendered creatives/_portfolio.html.erb (6.0ms)
+  Rendered creatives/_call_to_action.html.erb (0.3ms)
+  Rendered creatives/_contact.html.erb (0.2ms)
+  Rendered creatives/index.html.erb within layouts/creative (206.5ms)
+Completed 200 OK in 337ms (Views: 312.7ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.1) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.1) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:18:03 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (4.5ms)
+  Rendered creatives/_bg_primary.html.erb (0.3ms)
+  Rendered creatives/_services.html.erb (0.3ms)
+  Rendered creatives/_portfolio.html.erb (6.2ms)
+  Rendered creatives/_call_to_action.html.erb (0.3ms)
+  Rendered creatives/_contact.html.erb (0.4ms)
+  Rendered creatives/index.html.erb within layouts/creative (229.5ms)
+Completed 200 OK in 370ms (Views: 339.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/creatives/index" for 127.0.0.1 at 2019-05-12 15:25:00 -0500
+Processing by CreativesController#index as HTML
+  Rendering creatives/index.html.erb within layouts/creative
+  Rendered creatives/_navbar.html.erb (0.3ms)
+  Rendered creatives/_header.html.erb (2.6ms)
+  Rendered creatives/_bg_primary.html.erb (0.2ms)
+  Rendered creatives/_services.html.erb (0.3ms)
+  Rendered creatives/_portfolio.html.erb (4.8ms)
+  Rendered creatives/_call_to_action.html.erb (0.4ms)
+  Rendered creatives/_contact.html.erb (0.3ms)
+  Rendered creatives/index.html.erb within layouts/creative (196.1ms)
+Completed 200 OK in 336ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
